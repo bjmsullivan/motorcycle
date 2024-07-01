@@ -5,7 +5,7 @@
 .topborder{
 	float:left;
 	width:20%;
-	background-color: dodgerblue;
+	background-color:dodgerblue;
 	margin-bottom:4px;
 }
 .button{
@@ -23,8 +23,8 @@
 }
 
 body{
-	background-color:yellow;
-	color:#555555;
+	background-image: linear-gradient(to right, purple , yellow);
+	color:navajowhite;
 
 	font-family: Arial, Helvetica,sans-serif;
 	font-size:16px;
@@ -44,10 +44,14 @@ body{
 .container{
 	width:80%;
 	margin:auto;
+	max-width: 1000px;
 }
 
 .mytitle{
 	text-align:center;
+	text-shadow: 	-1px 1px 0 black,
+					1px -1px 0 black,
+					-1px -1px 0 black;
 }
 
 .misstake{
@@ -71,6 +75,7 @@ body{
 
 .box-1 h1{
 	font-style: bold;
+	color:red;
 	font-family: cursive;
 	text-decoration: underline;
 	text-transform: uppercase;
@@ -79,6 +84,7 @@ body{
 
 .box-2{
 	background-color: yellowgreen;
+	color:#333;
 	border: 3px dotted black;
 	padding: 20px;
 	margin: 20px 0;
@@ -96,6 +102,7 @@ body{
 
 .box-2 h1{
 	line-height: 1.2em;
+	color:green;
 }
 
 .categories{
@@ -106,9 +113,13 @@ body{
 }
 
 .categories h2{
+	text-shadow: 	-2px 2px 0 black,
+					2px -2px 0 black,
+					-2px -2px 0 black,
+					2px 2px 0 black;
 	text-align: center;
-	font-family: cursive;
 	font-style:bold;
+	font-size:35px;
 }
 
 .categories ul{
@@ -160,6 +171,7 @@ body{
 }
 
 #main-block{
+	color:#333;
 	float:left;
 	width:70%;
 	background-color: whitesmoke;
@@ -180,10 +192,43 @@ body{
 	box-sizing:border-box; 
 }
 
-.p-box{
+.p-box-1{
+	position:fixed;
+	top:0px;
+	left:0px;
+	background-image: url('images/walnut.jpg');
+	text-align: center;
+	color:white;
+	width:100px;
+	height:50px;
+	border:1px black solid;
+}
+.p-box-2{
+	position:fixed;
+	top:0px;
+	right:0px;
+	background-image: url('images/walnut.jpg');
+	text-align: center;
+	color:white;
+	width:100px;
+	height:50px;
+	border:1px black solid;
+}
+.p-box-3{
 	position:fixed;
 	bottom:0px;
 	left:0px;
+	background-image: url('images/walnut.jpg');
+	text-align: center;
+	color:white;
+	width:100px;
+	height:50px;
+	border:1px black solid;
+}
+.p-box-4{
+	position:fixed;
+	bottom:0px;
+	right:0px;
 	background-image: url('images/walnut.jpg');
 	text-align: center;
 	color:white;
@@ -201,4 +246,8 @@ body{
 .coollist li:nth-child(odd){
 	background:green;
 	color:blue;
+}
+
+footer{
+	color:yellow;
 }

@@ -128,7 +128,7 @@ body{
 .categories li{
 	padding-bottom:8px;
 	border-bottom:dotted 1px #333;
-	list-style-image: url('../docs/assets/images/check.png');
+	list-style-image: url('images/check.png');
 }
 
 .my-form{
@@ -169,7 +169,7 @@ body{
 #sidebar{
 	float:right;
 	width:30%;
-	background-image:url('../docs/assets/images/lava.gif');
+	background-image:url('images/lava.gif');
 	color:black;
 	font-size: 25px;
 	border: 12px black double;
@@ -184,7 +184,7 @@ body{
 	position:fixed;
 	bottom:0px;
 	left:0px;
-	background-image: url('../docs/assets/images/walnut.jpg');
+	background-image: url('images/walnut.jpg');
 	text-align: center;
 	color:white;
 	width:100px;

@@ -76,10 +76,20 @@ body{
 .box-1 h1{
 	font-style: bold;
 	color:red;
-	font-family: cursive;
+	font-family: sans-serif;
 	text-decoration: underline;
 	text-transform: uppercase;
-	letter-spacing: 0.6em;
+	letter-spacing: 0.1em;
+	animation-name: letterwiden;
+	animation-duration:4s;
+	animation-iteration-count: infinite;
+	animation-direction:alternate;
+
+}
+
+@keyframes letterwiden{
+	0%{	letter-spacing: 0.1em; transform:rotateY(0deg);}
+	100%{letter-spacing: 0.9em; transform:rotateY(1080deg);}
 }
 
 .box-2{
